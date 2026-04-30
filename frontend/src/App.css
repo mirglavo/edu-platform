@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+p {
+  color: #7f8c8d;
+.hover-effect {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.lesson-content {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Стили для Markdown контента */
+.markdown-body {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+}
+
+.markdown-body h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.markdown-body h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+.markdown-body h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: #000000;
+}
+
+.markdown-body h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+  color: #000000;
+}
+
+.markdown-body em {
+  font-style: italic;
+  color: #000000;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.3rem;
+  color: #000000;
+}
+
+.markdown-body a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body code {
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #d63384;
+  font-size: 0.9rem;
+}
+
+.markdown-body pre {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  padding: 0;
+  color: #333;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #007bff;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.markdown-body th, .markdown-body td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.markdown-body th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.markdown-body hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+.lesson-content p {
+  margin-bottom: 1.2rem;
+  color: #000000;
+}
+
+.lesson-content h1, .lesson-content h2, .lesson-content h3 {
+  color: #000000;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lesson-content ul, .lesson-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lesson-content li {
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.lesson-content code {
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #d63384;
+}
+
+.lesson-content pre {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+}
